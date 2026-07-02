@@ -1,0 +1,120 @@
+.hero{
+
+    width:100%;
+    min-height:90vh;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:70px 8%;
+
+    background:#F8F3E8;
+
+    overflow:hidden;
+}
+
+/* LEFT */
+
+.hero-left{
+
+    width:50%;
+}
+
+.hero-left h1{
+
+    font-size:70px;
+    line-height:1.1;
+    font-weight:900;
+
+    color:#132B3B;
+
+    margin-bottom:30px;
+}
+
+.hero-left h1 span{
+
+    color:#D62828;
+}
+
+.hero-left p{
+
+    font-size:22px;
+
+    color:#555;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+}
+
+/* Buttons */
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+}
+
+.primary-btn{
+
+    padding:18px 45px;
+
+    background:#132B3B;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:50px;
+
+    font-size:18px;
+
+    font-weight:bold;
+}
+
+.secondary-btn{
+
+    padding:18px 45px;
+
+    color:#D62828;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:bold;
+}
+
+/* RIGHT */
+
+.hero-right{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+.hero-right img{
+
+    width:900px;
+    max-width:none;
+
+    display:block;
+
+    object-fit:contain;
+
+    animation:none;
+}
+
+
+
