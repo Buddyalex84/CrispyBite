@@ -5,7 +5,11 @@ Home | CrispyBite
 {% endblock %}
 
 {% block content %}
-
+{% comment %} hero section {% endcomment %}
 {% include 'home/hero.html' %}
+{% comment %} categories section {% endcomment %}
+{% include 'home/categories.html' %}
+{% comment %} featured dishes section {% endcomment %}
+{% include 'home/featured.html' %}
 
 {% endblock %}
