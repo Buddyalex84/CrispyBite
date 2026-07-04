@@ -1,0 +1,95 @@
+/* ===========================
+   Why Choose CrispyBite
+=========================== */
+
+.why-choose{
+
+    padding:110px 8%;
+
+    background:#F8F3E8;
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+    margin-top:60px;
+}
+
+.why-card{
+
+    background:#ffffff;
+
+    padding:40px 30px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.why-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.why-icon{
+
+    width:90px;
+
+    height:90px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#163A52;
+
+    color:#ffffff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:36px;
+
+    margin-bottom:25px;
+
+    transition:.3s;
+}
+
+.why-card:hover .why-icon{
+
+    background:#D62828;
+
+    transform:rotate(10deg);
+}
+
+.why-card h3{
+
+    font-size:26px;
+
+    color:#163A52;
+
+    margin-bottom:15px;
+}
+
+.why-card p{
+
+    color:#666;
+
+    font-size:17px;
+
+    line-height:1.8;
+}
